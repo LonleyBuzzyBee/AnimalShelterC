@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using MySql.Data.MySqlClient;
 
-namespace AnimalShelter
+namespace AnimalShelter.Models
 {
   public class Animal
   {
