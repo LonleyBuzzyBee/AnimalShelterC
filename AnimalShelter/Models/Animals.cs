@@ -10,6 +10,8 @@ namespace AnimalShelter.Models
     public string Gender { get; set; }
     public int Age { get; set; }
     public int AnimalId { get; set; }
+    public int ShelterId { get; set; }
+    public virtual Shelter Shelter { get; set; }
   }
   
 }
